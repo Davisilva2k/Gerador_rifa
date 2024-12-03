@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 20px;
+
+}
+
+.esquerda {
+    margin: 10px 0px 10px 0px;
+    width: 25%;
+    padding: 10px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    border-right: 1px dashed black;
+    border-left: 1px solid black;
+
+}
+
+.direita {
+    margin: 10px 0px 10px 0px;
+    width: 75%;
+    height: 200px;
+    padding: 10px;
+
+    border-bottom: 1px solid black;
+
+}
+#titulo{
+    margin-left: 60px;
+}
